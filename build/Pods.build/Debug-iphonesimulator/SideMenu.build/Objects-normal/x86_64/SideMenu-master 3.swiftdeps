@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "fc5a336156d820c04f48cbdf4c1b2c61"
+build_time: [1606592147, 507041000]
+inputs:
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/Deprecations.swift": [1606051771, 812679172]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/Extensions.swift": [1606051771, 812909126]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/Initializable.swift": [1606051771, 813143373]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/Print.swift": [1606051771, 813310266]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/Protected.swift": [1606051771, 813508153]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift": [1606051771, 813760877]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift": [1606051771, 813910723]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [1606051771, 814073324]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift": [1606051771, 814362645]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift": [1606051771, 814660192]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift": [1606051771, 814950466]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift": [1606051771, 815200567]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift": [1606051771, 815388441]
+  "/Users/hamza/Desktop/MiniProjetIOS/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [1606051771, 815598011]

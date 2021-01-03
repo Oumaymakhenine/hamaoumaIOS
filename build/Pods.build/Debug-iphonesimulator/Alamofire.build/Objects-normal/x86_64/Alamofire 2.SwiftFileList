@@ -1,0 +1,70 @@
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AFError\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AFError.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AlamofireExtended\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AlamofireExtended.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AuthenticationInterceptor\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/CachedResponseHandler\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/CachedResponseHandler.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Combine\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Combine.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/DispatchQueue+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/EventMonitor\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/EventMonitor.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/HTTPHeaders\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/HTTPHeaders.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/HTTPMethod\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/HTTPMethod.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/MultipartFormData\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/MultipartFormData.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/MultipartUpload\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/MultipartUpload.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/NetworkReachabilityManager\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Notifications\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Notifications.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/OperationQueue+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ParameterEncoder\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ParameterEncoder.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ParameterEncoding\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ParameterEncoding.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Protected\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Protected.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RedirectHandler\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RedirectHandler.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Request\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Request.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RequestInterceptor\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RequestInterceptor.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RequestTaskMap\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RequestTaskMap.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Response\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Response.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ResponseSerialization\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ResponseSerialization.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Result+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Result+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RetryPolicy\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/RetryPolicy.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ServerTrustEvaluation\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Session\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Session.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/SessionDelegate\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/SessionDelegate.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/StringEncoding+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLEncodedFormEncoder\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLRequest+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Validation\ 3.swift
+/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Alamofire/Source/Validation.swift
