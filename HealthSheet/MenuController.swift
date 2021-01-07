@@ -8,6 +8,7 @@ import SideMenu
 import UIKit
 
 class MenuController: UIViewController {
+    static var hama = [""]
     static var people = Testuser(roles: ["h"], listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x")
     static var dtaa = ""
     @IBOutlet weak var m: NSLayoutConstraint!
@@ -16,17 +17,17 @@ class MenuController: UIViewController {
     @IBOutlet weak var leadConstraint: NSLayoutConstraint!
     @IBAction func oumayma(_ sender: UIBarButtonItem) {
         if menuIsHidden {
-           // leadConstraint.constant = 0
+            //leadConstraint.constant = 0
             menuView.isHidden = false
 
            // m.constant = 0
             menuIsHidden = false
-            UIView.animate(withDuration: 0.2) {
+            UIView.animate(withDuration: 0.1) {
                 self.view.layoutIfNeeded()
             }
         }else{
-          //  leadConstraint.constant = -190
-          //  m.constant = -190
+           // leadConstraint.constant = -190
+           // m.constant = -190
             menuView.isHidden = true
 
             UIView.animate(withDuration: 0.1) {
@@ -39,8 +40,8 @@ class MenuController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         menuView.isHidden = true
-       // leadConstraint.constant = -190
-      //  m.constant = -190
+//        leadConstraint.constant = -190
+        //m.constant = -190
 
 
     }

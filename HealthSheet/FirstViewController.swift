@@ -7,8 +7,8 @@ class FirstViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let dt = sender as! [String]
-        let des = segue.destination as! testViewController
-        des.hama = dt
+       // let des = segue.destination as! MenuController
+        MenuController.hama = dt
     }
     
     override func viewDidLoad() {

@@ -16,12 +16,17 @@ struct ImageResponse: Decodable
 
 
 class PickImageViewController: UIViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let d = sender as! Analyse
+        let dd = segue.destination as! SendAnalyseViewController
+        dd.a = d
+    }
 
     @IBAction func uploadaction(_ sender: Any) {
-        
         UploadImage()
-        
-    }
+        }
     @IBOutlet weak var upload: UIButton!
     @IBOutlet var UIPickerr: UIPickerView!
        override func viewDidLoad() {
@@ -33,7 +38,7 @@ class PickImageViewController: UIViewController {
         pick()
        }
    }
-    extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate{
+extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     func pick() {
         let ipcontroller = UIImagePickerController()
         ipcontroller.delegate = self
@@ -60,7 +65,7 @@ class PickImageViewController: UIViewController {
             let image = picture.image
             let imageData = image?.jpegData(compressionQuality: 0.7)
 
-             let url =  "http://192.168.43.111:3000/api/auth/uploadfile"
+             let url =  "http://192.168.1.102:3000/api/auth/uploadfile"
              var urlRequest = URLRequest(url: URL(string: url)!)
 
              urlRequest.httpMethod = "post"
@@ -77,17 +82,36 @@ class PickImageViewController: UIViewController {
              URLSession.shared.dataTask(with: urlRequest) { (data, httpUrlResponse, error) in
 
                  if(error == nil && data != nil && data?.count != 0)
-                 {
+                 {DispatchQueue.main.async {
                      do {
                          let response = try JSONDecoder().decode(ImageResponse.self, from: data!)
-                         print(response)
-                     }
+                        print("bdgdgd")
+                        var dataString = NSString(data: data!, encoding:String.Encoding.utf8.rawValue)
+                     var   dd = dataString! as String
+                        print(dd)
+                        let jsonData = Data(dd.utf8)
+                        let decoder = JSONDecoder()
+                        
+                        do {
+                            
+                            
+                            var analyse = try decoder.decode(Analyse.self, from: jsonData)
+                            self.performSegue(withIdentifier: "sendanalyse", sender: analyse)
+
+                            }
+                            } catch {
+                            print(error)
+                        }
+                        
+                            
+
+                     
 
                      catch let decodingError
                      {
                          debugPrint(decodingError)
                      }
-                 }
+                 }}
              }.resume()
          }
         

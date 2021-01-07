@@ -20,6 +20,7 @@
 		BB6E40C2257F9EFA008636AB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E40C1257F9EFA008636AB /* FirstViewController.swift */; };
 		BB6E4603257BCB57002868CC /* Userc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E4602257BCB57002868CC /* Userc.swift */; };
 		BB84A01B257D6AAC00A56ED2 /* PickImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB84A01A257D6AAC00A56ED2 /* PickImageViewController.swift */; };
+		BB8D4E4B25A7659900EAF091 /* SendAnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */; };
 		BBBFA1F5256AA64400369892 /* ListPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFA1F4256AA64400369892 /* ListPatientsViewController.swift */; };
 		BBBFA1FA256AB57300369892 /* MedicalsheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFA1F9256AB57300369892 /* MedicalsheetController.swift */; };
 		BBF224A125728AF60002257E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF224A025728AF60002257E /* User.swift */; };
@@ -89,6 +90,7 @@
 		BB6E40C1257F9EFA008636AB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		BB6E4602257BCB57002868CC /* Userc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userc.swift; sourceTree = "<group>"; };
 		BB84A01A257D6AAC00A56ED2 /* PickImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickImageViewController.swift; sourceTree = "<group>"; };
+		BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAnalyseViewController.swift; sourceTree = "<group>"; };
 		BBBFA1F4256AA64400369892 /* ListPatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPatientsViewController.swift; sourceTree = "<group>"; };
 		BBBFA1F9256AB57300369892 /* MedicalsheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalsheetController.swift; sourceTree = "<group>"; };
 		BBF224A025728AF60002257E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				FAB344F8257F5DAC001B6E7B /* AboutdocViewController.swift */,
 				FAB3450D257F67DB001B6E7B /* AccountController.swift */,
 				FADAA06F258666720093AC1D /* PatientAboutViewController.swift */,
+				BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */,
 			);
 			name = Patient;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 			files = (
 				FADAA05D258654860093AC1D /* AboutPatient.swift in Sources */,
 				BBBFA1F5256AA64400369892 /* ListPatientsViewController.swift in Sources */,
+				BB8D4E4B25A7659900EAF091 /* SendAnalyseViewController.swift in Sources */,
 				FADAA06B258666400093AC1D /* MeAboutViewController.swift in Sources */,
 				BB1488812574D9A300AB2A9F /* WelcomeViewController.swift in Sources */,
 				FA68C52E2569B94C009EC5FB /* NavMenuController.swift in Sources */,

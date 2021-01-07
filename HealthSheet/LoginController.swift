@@ -10,7 +10,7 @@ import UIKit
 
 class LoginController: UIViewController {
 
-    let serverUrl = "http://192.168.1.54:3000/api/auth/signin"
+    let serverUrl = "http://192.168.1.55:3000/api/auth/signin"
     
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
@@ -43,11 +43,11 @@ class LoginController: UIViewController {
                      switch response.result {
                              case .success:
                                  print("Validation Successful Hama")
-                                var dataString = NSString(data: response.data!, encoding:String.Encoding.utf8.rawValue)
+                               var dataString = NSString(data: response.data!, encoding:String.Encoding.utf8.rawValue)
                              var   dd = dataString! as String
                                 
                               // print(dd)
-                               self.performSegue(withIdentifier: "menup", sender: dd)
+                               self.performSegue(withIdentifier: "first", sender: dd)
                             //    self.performSegue(withIdentifier: "welcome", sender: dd)
 
                                 case let .failure(error):
