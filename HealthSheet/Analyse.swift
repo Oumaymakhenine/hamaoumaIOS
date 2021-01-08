@@ -8,7 +8,6 @@
 import Foundation
 class Analyse :Codable {
     internal init(id: String,filename:String,doctor:String,patient:String) {
-            
             self.id = id
             self.filename = filename
             self.doctor = doctor
@@ -18,5 +17,4 @@ class Analyse :Codable {
         var patient:String
         var id:String
         var filename:String
-
 }

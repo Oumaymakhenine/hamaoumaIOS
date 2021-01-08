@@ -1,0 +1,1341 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PresentationModel"
+- "SideMenuPresentationControllerDelegate"
+- "SideMenuPresentationController"
+provides-nominal:
+- "8SideMenu17PresentationModelP"
+- "8SideMenu0aB30PresentationControllerDelegateP"
+- "8SideMenu0aB22PresentationControllerC"
+provides-member:
+- ["8SideMenu17PresentationModelP", ""]
+- ["8SideMenu0aB30PresentationControllerDelegateP", ""]
+- ["8SideMenu0aB22PresentationControllerC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_snapshotView"
+- "$__lazy_storage_$_statusBarView"
+- "addParallax"
+- "addShadow"
+- "clipsToBounds"
+- "config"
+- "containerView"
+- "containerViewWillLayoutSubviews"
+- "dismissalTransition"
+- "dismissalTransitionDidEnd"
+- "dismissalTransitionWillBegin"
+- "frameOfPresentedViewInContainerView"
+- "frameOfPresentingViewInContainerView"
+- "interactivePopGestureRecognizerEnabled"
+- "layerViews"
+- "leftSide"
+- "presentationTransition"
+- "presentationTransitionDidEnd"
+- "presentationTransitionWillBegin"
+- "presentedViewController"
+- "presentingViewController"
+- "removeStyles"
+- "snapshotView"
+- "statusBarFrame"
+- "statusBarView"
+- "transition"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "*"
+- !private "-"
+- !private "-="
+- !private "=="
+- ">"
+- !private "??"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CGAffineTransform"
+- "CGFloat"
+- "CGRect"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PresentationModel"
+- "SideMenuPresentationController"
+- "SideMenuPresentationControllerDelegate"
+- "SideMenuPresentationStyle"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UIApplication"
+- "UIInterpolatingMotionEffect"
+- !private "UIMotionEffectGroup"
+- "UINavigationController"
+- "UIPanGestureRecognizer"
+- "UIView"
+- "UIViewController"
+- !private "addParallax"
+- !private "addShadow"
+- !private "clipsToBounds"
+- "config"
+- !private "containerView"
+- !private "containerViewWillLayoutSubviews"
+- !private "dismissalTransition"
+- !private "dismissalTransitionDidEnd"
+- !private "dismissalTransitionWillBegin"
+- "frameOfPresentedViewInContainerView"
+- !private "interactivePopGestureRecognizerEnabled"
+- !private "layerViews"
+- !private "leftSide"
+- !private "presentationTransition"
+- !private "presentationTransitionDidEnd"
+- !private "presentedViewController"
+- "presentingViewController"
+- !private "removeStyles"
+- !private "snapshotView"
+- !private "statusBarFrame"
+- !private "statusBarView"
+- !private "transition"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "leastNonzeroMagnitude"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "removeAll"]
+- ["So18UIViewAutoresizingV", "ArrayLiteralElement"]
+- ["So18UIViewAutoresizingV", "Element"]
+- ["So18UIViewAutoresizingV", "flexibleHeight"]
+- ["So18UIViewAutoresizingV", "flexibleWidth"]
+- ["So18UIViewAutoresizingV", "init"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "leastNonzeroMagnitude"]
+- !private ["SK", "removeAll"]
+- ["Sz", ""]
+- ["Sz", "leastNonzeroMagnitude"]
+- !private ["So7CALayerC", "shadowColor"]
+- !private ["So7CALayerC", "shadowOffset"]
+- !private ["So7CALayerC", "shadowOpacity"]
+- !private ["So7CALayerC", "shadowRadius"]
+- !private ["So15CALayerDelegateP", "addMotionEffect"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "alpha"]
+- ["So15CALayerDelegateP", "autoresizingMask"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "clipsToBounds"]
+- !private ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "motionEffects"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- ["So15CALayerDelegateP", "snapshotView"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["So15CALayerDelegateP", "untransform"]
+- !private ["So13CAMediaTimingP", "shadowColor"]
+- !private ["So13CAMediaTimingP", "shadowOffset"]
+- !private ["So13CAMediaTimingP", "shadowOpacity"]
+- !private ["So13CAMediaTimingP", "shadowRadius"]
+- !private ["So17CGAffineTransformV", "identity"]
+- !private ["So17CGAffineTransformV", "translatedBy"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "minY"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "height"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addMotionEffect"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "autoresizingMask"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "clipsToBounds"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interactivePopGestureRecognizer"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "layer"]
+- ["s7CVarArgP", "leastNonzeroMagnitude"]
+- !private ["s7CVarArgP", "maximumRelativeValue"]
+- !private ["s7CVarArgP", "minimumRelativeValue"]
+- !private ["s7CVarArgP", "motionEffects"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "shadowColor"]
+- !private ["s7CVarArgP", "shadowOffset"]
+- !private ["s7CVarArgP", "shadowOpacity"]
+- !private ["s7CVarArgP", "shadowRadius"]
+- !private ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", "snapshotView"]
+- !private ["s7CVarArgP", "statusBarFrame"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "untransform"]
+- ["s7CVarArgP", "view"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "leastNonzeroMagnitude"]
+- !private ["Sl", "removeAll"]
+- ["SL", ""]
+- ["SL", "leastNonzeroMagnitude"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addMotionEffect"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "autoresizingMask"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interactivePopGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- ["s28CustomDebugStringConvertibleP", "leastNonzeroMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumRelativeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "minY"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumRelativeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "motionEffects"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowColor"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOpacity"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "snapshotView"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "untransform"]
+- ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "alpha"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "isUserInteractionEnabled"]
+- ["s17CustomReflectableP", "leastNonzeroMagnitude"]
+- !private ["s17CustomReflectableP", "minY"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "snapshotView"]
+- !private ["s17CustomReflectableP", "transform"]
+- !private ["s17CustomReflectableP", "untransform"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addMotionEffect"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "autoresizingMask"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "clipsToBounds"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interactivePopGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- ["s23CustomStringConvertibleP", "leastNonzeroMagnitude"]
+- !private ["s23CustomStringConvertibleP", "maximumRelativeValue"]
+- !private ["s23CustomStringConvertibleP", "minimumRelativeValue"]
+- !private ["s23CustomStringConvertibleP", "motionEffects"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "shadowColor"]
+- !private ["s23CustomStringConvertibleP", "shadowOffset"]
+- !private ["s23CustomStringConvertibleP", "shadowOpacity"]
+- !private ["s23CustomStringConvertibleP", "shadowRadius"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "snapshotView"]
+- !private ["s23CustomStringConvertibleP", "statusBarFrame"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "untransform"]
+- ["s23CustomStringConvertibleP", "view"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- ["10Foundation4DateV", "leastNonzeroMagnitude"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "alpha"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "height"]
+- !private ["Se", "identity"]
+- !private ["Se", "isUserInteractionEnabled"]
+- ["Se", "leastNonzeroMagnitude"]
+- !private ["Se", "minY"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "size"]
+- ["Se", "snapshotView"]
+- !private ["Se", "transform"]
+- !private ["Se", "translatedBy"]
+- !private ["Se", "untransform"]
+- !private ["Se", "zero"]
+- !private ["So31UIInterpolatingMotionEffectTypeV", "tiltAlongHorizontalAxis"]
+- !private ["So31UIInterpolatingMotionEffectTypeV", "tiltAlongVerticalAxis"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "alpha"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "height"]
+- !private ["SE", "identity"]
+- !private ["SE", "isUserInteractionEnabled"]
+- ["SE", "leastNonzeroMagnitude"]
+- !private ["SE", "minY"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "size"]
+- ["SE", "snapshotView"]
+- !private ["SE", "transform"]
+- !private ["SE", "translatedBy"]
+- !private ["SE", "untransform"]
+- !private ["SE", "zero"]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Element"]
+- ["SQ", ""]
+- !private ["SQ", "addMotionEffect"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "append"]
+- ["SQ", "autoresizingMask"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "clipsToBounds"]
+- !private ["SQ", "count"]
+- ["SQ", "flexibleHeight"]
+- ["SQ", "flexibleWidth"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "height"]
+- !private ["SQ", "identity"]
+- ["SQ", "init"]
+- !private ["SQ", "interactivePopGestureRecognizer"]
+- !private ["SQ", "isEnabled"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "isUserInteractionEnabled"]
+- !private ["SQ", "layer"]
+- ["SQ", "leastNonzeroMagnitude"]
+- !private ["SQ", "maximumRelativeValue"]
+- !private ["SQ", "minY"]
+- !private ["SQ", "minimumRelativeValue"]
+- !private ["SQ", "motionEffects"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "shadowColor"]
+- !private ["SQ", "shadowOffset"]
+- !private ["SQ", "shadowOpacity"]
+- !private ["SQ", "shadowRadius"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "size"]
+- ["SQ", "snapshotView"]
+- !private ["SQ", "statusBarFrame"]
+- !private ["SQ", "tiltAlongHorizontalAxis"]
+- !private ["SQ", "tiltAlongVerticalAxis"]
+- !private ["SQ", "transform"]
+- !private ["SQ", "translatedBy"]
+- !private ["SQ", "untransform"]
+- ["SQ", "view"]
+- !private ["SQ", "zero"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "flexibleHeight"]
+- ["s25ExpressibleByArrayLiteralP", "flexibleWidth"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "leastNonzeroMagnitude"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "leastNonzeroMagnitude"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "alpha"]
+- !private ["s23ExpressibleByNilLiteralP", "isUserInteractionEnabled"]
+- ["s23ExpressibleByNilLiteralP", "snapshotView"]
+- !private ["s23ExpressibleByNilLiteralP", "transform"]
+- !private ["s23ExpressibleByNilLiteralP", "untransform"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s17FixedWidthIntegerP", "leastNonzeroMagnitude"]
+- ["SH", ""]
+- !private ["SH", "addMotionEffect"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "alpha"]
+- !private ["SH", "append"]
+- ["SH", "autoresizingMask"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "clipsToBounds"]
+- !private ["SH", "count"]
+- !private ["SH", "frame"]
+- ["SH", "init"]
+- !private ["SH", "interactivePopGestureRecognizer"]
+- !private ["SH", "isEnabled"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "isUserInteractionEnabled"]
+- !private ["SH", "layer"]
+- ["SH", "leastNonzeroMagnitude"]
+- !private ["SH", "maximumRelativeValue"]
+- !private ["SH", "minimumRelativeValue"]
+- !private ["SH", "motionEffects"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "shadowColor"]
+- !private ["SH", "shadowOffset"]
+- !private ["SH", "shadowOpacity"]
+- !private ["SH", "shadowRadius"]
+- !private ["SH", "shared"]
+- ["SH", "snapshotView"]
+- !private ["SH", "statusBarFrame"]
+- !private ["SH", "tiltAlongHorizontalAxis"]
+- !private ["SH", "tiltAlongVerticalAxis"]
+- !private ["SH", "transform"]
+- !private ["SH", "untransform"]
+- ["SH", "view"]
+- ["10Foundation8IndexSetV0B0V", "leastNonzeroMagnitude"]
+- ["10Foundation9IndexPathV", "leastNonzeroMagnitude"]
+- !private ["8SideMenu18InitializableClassP", "addMotionEffect"]
+- !private ["8SideMenu18InitializableClassP", "addMotionEffect"]
+- !private ["8SideMenu18InitializableClassP", "addSubview"]
+- !private ["8SideMenu18InitializableClassP", "addSubview"]
+- !private ["8SideMenu18InitializableClassP", "alpha"]
+- !private ["8SideMenu18InitializableClassP", "alpha"]
+- ["8SideMenu18InitializableClassP", "autoresizingMask"]
+- ["8SideMenu18InitializableClassP", "autoresizingMask"]
+- !private ["8SideMenu18InitializableClassP", "backgroundColor"]
+- !private ["8SideMenu18InitializableClassP", "backgroundColor"]
+- !private ["8SideMenu18InitializableClassP", "clipsToBounds"]
+- !private ["8SideMenu18InitializableClassP", "clipsToBounds"]
+- !private ["8SideMenu18InitializableClassP", "frame"]
+- !private ["8SideMenu18InitializableClassP", "frame"]
+- ["8SideMenu18InitializableClassP", "init"]
+- ["8SideMenu18InitializableClassP", "init"]
+- !private ["8SideMenu18InitializableClassP", "interactivePopGestureRecognizer"]
+- !private ["8SideMenu18InitializableClassP", "interactivePopGestureRecognizer"]
+- !private ["8SideMenu18InitializableClassP", "isEnabled"]
+- !private ["8SideMenu18InitializableClassP", "isEnabled"]
+- !private ["8SideMenu18InitializableClassP", "isHidden"]
+- !private ["8SideMenu18InitializableClassP", "isHidden"]
+- !private ["8SideMenu18InitializableClassP", "isUserInteractionEnabled"]
+- !private ["8SideMenu18InitializableClassP", "isUserInteractionEnabled"]
+- !private ["8SideMenu18InitializableClassP", "layer"]
+- !private ["8SideMenu18InitializableClassP", "layer"]
+- !private ["8SideMenu18InitializableClassP", "maximumRelativeValue"]
+- !private ["8SideMenu18InitializableClassP", "maximumRelativeValue"]
+- !private ["8SideMenu18InitializableClassP", "minimumRelativeValue"]
+- !private ["8SideMenu18InitializableClassP", "minimumRelativeValue"]
+- !private ["8SideMenu18InitializableClassP", "motionEffects"]
+- !private ["8SideMenu18InitializableClassP", "motionEffects"]
+- !private ["8SideMenu18InitializableClassP", "removeFromSuperview"]
+- !private ["8SideMenu18InitializableClassP", "removeFromSuperview"]
+- !private ["8SideMenu18InitializableClassP", "shadowColor"]
+- !private ["8SideMenu18InitializableClassP", "shadowColor"]
+- !private ["8SideMenu18InitializableClassP", "shadowOffset"]
+- !private ["8SideMenu18InitializableClassP", "shadowOffset"]
+- !private ["8SideMenu18InitializableClassP", "shadowOpacity"]
+- !private ["8SideMenu18InitializableClassP", "shadowOpacity"]
+- !private ["8SideMenu18InitializableClassP", "shadowRadius"]
+- !private ["8SideMenu18InitializableClassP", "shadowRadius"]
+- !private ["8SideMenu18InitializableClassP", "shared"]
+- !private ["8SideMenu18InitializableClassP", "shared"]
+- ["8SideMenu18InitializableClassP", "snapshotView"]
+- ["8SideMenu18InitializableClassP", "snapshotView"]
+- !private ["8SideMenu18InitializableClassP", "statusBarFrame"]
+- !private ["8SideMenu18InitializableClassP", "statusBarFrame"]
+- !private ["8SideMenu18InitializableClassP", "transform"]
+- !private ["8SideMenu18InitializableClassP", "transform"]
+- !private ["8SideMenu18InitializableClassP", "untransform"]
+- !private ["8SideMenu18InitializableClassP", "untransform"]
+- ["8SideMenu18InitializableClassP", "view"]
+- ["8SideMenu18InitializableClassP", "view"]
+- ["Si", "leastNonzeroMagnitude"]
+- ["s5Int16V", "leastNonzeroMagnitude"]
+- ["s5Int32V", "leastNonzeroMagnitude"]
+- ["s5Int64V", "leastNonzeroMagnitude"]
+- ["s4Int8V", "leastNonzeroMagnitude"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "leastNonzeroMagnitude"]
+- ["s10MirrorPathP", "leastNonzeroMagnitude"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "leastNonzeroMagnitude"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addMotionEffect"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "alpha"]
+- ["So8NSCodingP", "autoresizingMask"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clipsToBounds"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "interactivePopGestureRecognizer"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "maximumRelativeValue"]
+- !private ["So8NSCodingP", "minimumRelativeValue"]
+- !private ["So8NSCodingP", "motionEffects"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "shadowColor"]
+- !private ["So8NSCodingP", "shadowOffset"]
+- !private ["So8NSCodingP", "shadowOpacity"]
+- !private ["So8NSCodingP", "shadowRadius"]
+- ["So8NSCodingP", "snapshotView"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "untransform"]
+- ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "maximumRelativeValue"]
+- !private ["So9NSCopyingP", "minimumRelativeValue"]
+- !private ["So9NSCopyingP", "motionEffects"]
+- !private ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "interactivePopGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "isHidden"]
+- ["So26NSExtensionRequestHandlingP", "view"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addMotionEffect"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "alpha"]
+- ["So8NSObjectC", "autoresizingMask"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "clipsToBounds"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "frameForAlignmentRect"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "interactivePopGestureRecognizer"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "maximumRelativeValue"]
+- !private ["So8NSObjectC", "minimumRelativeValue"]
+- !private ["So8NSObjectC", "motionEffects"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "shadowColor"]
+- !private ["So8NSObjectC", "shadowOffset"]
+- !private ["So8NSObjectC", "shadowOpacity"]
+- !private ["So8NSObjectC", "shadowRadius"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "snapshotView"]
+- ["So8NSObjectC", "snapshotViewAfterScreenUpdates"]
+- !private ["So8NSObjectC", "statusBarFrame"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "untransform"]
+- ["So8NSObjectC", "view"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addMotionEffect"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "alpha"]
+- ["So8NSObjectP", "autoresizingMask"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "clipsToBounds"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "frameForAlignmentRect"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "interactivePopGestureRecognizer"]
+- !private ["So8NSObjectP", "isEnabled"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "isUserInteractionEnabled"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "maximumRelativeValue"]
+- !private ["So8NSObjectP", "minimumRelativeValue"]
+- !private ["So8NSObjectP", "motionEffects"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "shadowColor"]
+- !private ["So8NSObjectP", "shadowOffset"]
+- !private ["So8NSObjectP", "shadowOpacity"]
+- !private ["So8NSObjectP", "shadowRadius"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "snapshotView"]
+- ["So8NSObjectP", "snapshotViewAfterScreenUpdates"]
+- !private ["So8NSObjectP", "statusBarFrame"]
+- !private ["So8NSObjectP", "transform"]
+- !private ["So8NSObjectP", "untransform"]
+- ["So8NSObjectP", "view"]
+- !private ["So14NSSecureCodingP", "shadowColor"]
+- !private ["So14NSSecureCodingP", "shadowOffset"]
+- !private ["So14NSSecureCodingP", "shadowOpacity"]
+- !private ["So14NSSecureCodingP", "shadowRadius"]
+- ["Sj", ""]
+- ["Sj", "leastNonzeroMagnitude"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "flexibleHeight"]
+- ["s9OptionSetP", "flexibleWidth"]
+- ["s9OptionSetP", "init"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "alpha"]
+- !private ["Sq", "isUserInteractionEnabled"]
+- ["Sq", "snapshotView"]
+- !private ["Sq", "transform"]
+- !private ["Sq", "untransform"]
+- ["8SideMenu17PresentationModelP", "Bool"]
+- ["8SideMenu17PresentationModelP", "CGFloat"]
+- ["8SideMenu17PresentationModelP", "SideMenuPresentationStyle"]
+- ["8SideMenu17PresentationModelP", "menuWidth"]
+- ["8SideMenu17PresentationModelP", "presentationStyle"]
+- ["8SideMenu17PresentationModelP", "presentingViewControllerUseSnapshot"]
+- ["8SideMenu17PresentationModelP", "presentingViewControllerUserInteractionEnabled"]
+- ["8SideMenu17PresentationModelP", "statusBarEndAlpha"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "leastNonzeroMagnitude"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "removeAll"]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- !private ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "flexibleHeight"]
+- ["SY", "flexibleWidth"]
+- ["SY", "init"]
+- ["SY", "leastNonzeroMagnitude"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "tiltAlongHorizontalAxis"]
+- !private ["SY", "tiltAlongVerticalAxis"]
+- ["10Foundation20ReferenceConvertibleP", "leastNonzeroMagnitude"]
+- ["s10SIMDScalarP", "leastNonzeroMagnitude"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "leastNonzeroMagnitude"]
+- !private ["ST", "removeAll"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "flexibleHeight"]
+- ["s10SetAlgebraP", "flexibleWidth"]
+- ["s10SetAlgebraP", "init"]
+- !private ["8SideMenu0aB22PresentationControllerC", "$__lazy_storage_$_snapshotView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "$__lazy_storage_$_statusBarView"]
+- ["8SideMenu0aB22PresentationControllerC", "Bool"]
+- !private ["8SideMenu0aB22PresentationControllerC", "CGAffineTransform"]
+- ["8SideMenu0aB22PresentationControllerC", "CGFloat"]
+- ["8SideMenu0aB22PresentationControllerC", "CGRect"]
+- !private ["8SideMenu0aB22PresentationControllerC", "CGRect"]
+- ["8SideMenu0aB22PresentationControllerC", "PresentationModel"]
+- !private ["8SideMenu0aB22PresentationControllerC", "UIApplication"]
+- !private ["8SideMenu0aB22PresentationControllerC", "UIInterpolatingMotionEffect"]
+- !private ["8SideMenu0aB22PresentationControllerC", "UIMotionEffectGroup"]
+- !private ["8SideMenu0aB22PresentationControllerC", "UINavigationController"]
+- ["8SideMenu0aB22PresentationControllerC", "UIView"]
+- ["8SideMenu0aB22PresentationControllerC", "UIView"]
+- ["8SideMenu0aB22PresentationControllerC", "UIViewController"]
+- ["8SideMenu0aB22PresentationControllerC", "UIViewController"]
+- ["8SideMenu0aB22PresentationControllerC", ""]
+- !private ["8SideMenu0aB22PresentationControllerC", "addParallax"]
+- !private ["8SideMenu0aB22PresentationControllerC", "addParallax"]
+- !private ["8SideMenu0aB22PresentationControllerC", "addShadow"]
+- !private ["8SideMenu0aB22PresentationControllerC", "clipsToBounds"]
+- !private ["8SideMenu0aB22PresentationControllerC", "clipsToBounds"]
+- ["8SideMenu0aB22PresentationControllerC", "config"]
+- !private ["8SideMenu0aB22PresentationControllerC", "config"]
+- !private ["8SideMenu0aB22PresentationControllerC", "containerView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "containerView"]
+- ["8SideMenu0aB22PresentationControllerC", "containerViewWillLayoutSubviews"]
+- !private ["8SideMenu0aB22PresentationControllerC", "containerViewWillLayoutSubviews"]
+- ["8SideMenu0aB22PresentationControllerC", "deinit"]
+- ["8SideMenu0aB22PresentationControllerC", "dismissalTransition"]
+- ["8SideMenu0aB22PresentationControllerC", "dismissalTransitionDidEnd"]
+- ["8SideMenu0aB22PresentationControllerC", "dismissalTransitionWillBegin"]
+- !private ["8SideMenu0aB22PresentationControllerC", "frameOfPresentedViewInContainerView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "frameOfPresentedViewInContainerView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "frameOfPresentingViewInContainerView"]
+- ["8SideMenu0aB22PresentationControllerC", "init"]
+- !private ["8SideMenu0aB22PresentationControllerC", "interactivePopGestureRecognizerEnabled"]
+- !private ["8SideMenu0aB22PresentationControllerC", "layerViews"]
+- !private ["8SideMenu0aB22PresentationControllerC", "layerViews"]
+- !private ["8SideMenu0aB22PresentationControllerC", "leftSide"]
+- !private ["8SideMenu0aB22PresentationControllerC", "leftSide"]
+- ["8SideMenu0aB22PresentationControllerC", "presentationTransition"]
+- ["8SideMenu0aB22PresentationControllerC", "presentationTransitionDidEnd"]
+- ["8SideMenu0aB22PresentationControllerC", "presentationTransitionWillBegin"]
+- !private ["8SideMenu0aB22PresentationControllerC", "presentedViewController"]
+- !private ["8SideMenu0aB22PresentationControllerC", "presentedViewController"]
+- ["8SideMenu0aB22PresentationControllerC", "presentingViewController"]
+- !private ["8SideMenu0aB22PresentationControllerC", "presentingViewController"]
+- !private ["8SideMenu0aB22PresentationControllerC", "removeStyles"]
+- !private ["8SideMenu0aB22PresentationControllerC", "removeStyles"]
+- !private ["8SideMenu0aB22PresentationControllerC", "snapshotView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "statusBarFrame"]
+- !private ["8SideMenu0aB22PresentationControllerC", "statusBarFrame"]
+- !private ["8SideMenu0aB22PresentationControllerC", "statusBarView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "statusBarView"]
+- !private ["8SideMenu0aB22PresentationControllerC", "transition"]
+- !private ["8SideMenu0aB22PresentationControllerC", "transition"]
+- ["8SideMenu0aB30PresentationControllerDelegateP", "SideMenuPresentationController"]
+- ["8SideMenu0aB30PresentationControllerDelegateP", "UIPanGestureRecognizer"]
+- ["8SideMenu0aB30PresentationControllerDelegateP", "sideMenuPresentationController"]
+- ["8SideMenu0aB30PresentationControllerDelegateP", "sideMenuPresentationControllerDidTap"]
+- ["SZ", "leastNonzeroMagnitude"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "leastNonzeroMagnitude"]
+- ["Sx", ""]
+- ["Sx", "leastNonzeroMagnitude"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addMotionEffect"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- ["So29UIAccessibilityIdentificationP", "autoresizingMask"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "motionEffects"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- ["So29UIAccessibilityIdentificationP", "snapshotView"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So29UIAccessibilityIdentificationP", "untransform"]
+- !private ["So12UIAppearanceP", "addMotionEffect"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "alpha"]
+- ["So12UIAppearanceP", "autoresizingMask"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "clipsToBounds"]
+- !private ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "motionEffects"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- ["So12UIAppearanceP", "snapshotView"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So12UIAppearanceP", "untransform"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addMotionEffect"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- ["So21UIAppearanceContainerP", "autoresizingMask"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "clipsToBounds"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "interactivePopGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "motionEffects"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- ["So21UIAppearanceContainerP", "snapshotView"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So21UIAppearanceContainerP", "untransform"]
+- ["So21UIAppearanceContainerP", "view"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "statusBarFrame"]
+- !private ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "interactivePopGestureRecognizer"]
+- !private ["So18UIContentContainerP", "isHidden"]
+- ["So18UIContentContainerP", "view"]
+- ["So21UIContentSizeCategorya", "leastNonzeroMagnitude"]
+- !private ["So17UICoordinateSpaceP", "addMotionEffect"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- ["So17UICoordinateSpaceP", "autoresizingMask"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "clipsToBounds"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "motionEffects"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- ["So17UICoordinateSpaceP", "snapshotView"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So17UICoordinateSpaceP", "untransform"]
+- !private ["So13UIDynamicItemP", "addMotionEffect"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "alpha"]
+- ["So13UIDynamicItemP", "autoresizingMask"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "clipsToBounds"]
+- !private ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "motionEffects"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- ["So13UIDynamicItemP", "snapshotView"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So13UIDynamicItemP", "untransform"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addMotionEffect"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- ["So18UIFocusEnvironmentP", "autoresizingMask"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "clipsToBounds"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "interactivePopGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "motionEffects"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- ["So18UIFocusEnvironmentP", "snapshotView"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "untransform"]
+- ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "addMotionEffect"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "alpha"]
+- ["So11UIFocusItemP", "autoresizingMask"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "clipsToBounds"]
+- !private ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "motionEffects"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- ["So11UIFocusItemP", "snapshotView"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So11UIFocusItemP", "untransform"]
+- !private ["So20UIFocusItemContainerP", "addMotionEffect"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- ["So20UIFocusItemContainerP", "autoresizingMask"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "clipsToBounds"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isUserInteractionEnabled"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "motionEffects"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- ["So20UIFocusItemContainerP", "snapshotView"]
+- !private ["So20UIFocusItemContainerP", "transform"]
+- !private ["So20UIFocusItemContainerP", "untransform"]
+- !private ["So19UIGestureRecognizerC", "isEnabled"]
+- !private ["So27UIInterpolatingMotionEffectC", "init"]
+- !private ["So27UIInterpolatingMotionEffectC", "maximumRelativeValue"]
+- !private ["So27UIInterpolatingMotionEffectC", "minimumRelativeValue"]
+- !private ["So24UILargeContentViewerItemP", "addMotionEffect"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "alpha"]
+- ["So24UILargeContentViewerItemP", "autoresizingMask"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "clipsToBounds"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isUserInteractionEnabled"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "motionEffects"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- ["So24UILargeContentViewerItemP", "snapshotView"]
+- !private ["So24UILargeContentViewerItemP", "transform"]
+- !private ["So24UILargeContentViewerItemP", "untransform"]
+- ["So14UIMotionEffectC", ""]
+- !private ["So14UIMotionEffectC", "init"]
+- !private ["So14UIMotionEffectC", "maximumRelativeValue"]
+- !private ["So14UIMotionEffectC", "minimumRelativeValue"]
+- !private ["So14UIMotionEffectC", "motionEffects"]
+- !private ["So19UIMotionEffectGroupC", "init"]
+- !private ["So19UIMotionEffectGroupC", "motionEffects"]
+- !private ["So22UINavigationControllerC", "interactivePopGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addMotionEffect"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- ["So30UIPasteConfigurationSupportingP", "autoresizingMask"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "frameForAlignmentRect"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "interactivePopGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "motionEffects"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "snapshotView"]
+- ["So30UIPasteConfigurationSupportingP", "snapshotViewAfterScreenUpdates"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarFrame"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "untransform"]
+- ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addMotionEffect"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "alpha"]
+- ["So11UIResponderC", "autoresizingMask"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "clipsToBounds"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "frameForAlignmentRect"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "interactivePopGestureRecognizer"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "motionEffects"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "snapshotView"]
+- ["So11UIResponderC", "snapshotViewAfterScreenUpdates"]
+- !private ["So11UIResponderC", "statusBarFrame"]
+- !private ["So11UIResponderC", "transform"]
+- !private ["So11UIResponderC", "untransform"]
+- ["So11UIResponderC", "view"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addMotionEffect"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- ["So30UIResponderStandardEditActionsP", "autoresizingMask"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frameForAlignmentRect"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "interactivePopGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "motionEffects"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "snapshotView"]
+- ["So30UIResponderStandardEditActionsP", "snapshotViewAfterScreenUpdates"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarFrame"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So30UIResponderStandardEditActionsP", "untransform"]
+- ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "interactivePopGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "isHidden"]
+- ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addMotionEffect"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- ["So18UITraitEnvironmentP", "autoresizingMask"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "clipsToBounds"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "interactivePopGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "motionEffects"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- ["So18UITraitEnvironmentP", "snapshotView"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So18UITraitEnvironmentP", "untransform"]
+- ["So18UITraitEnvironmentP", "view"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addMotionEffect"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- ["So23UIUserActivityRestoringP", "autoresizingMask"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "clipsToBounds"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "frameForAlignmentRect"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "interactivePopGestureRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "isUserInteractionEnabled"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "motionEffects"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- ["So23UIUserActivityRestoringP", "snapshotView"]
+- ["So23UIUserActivityRestoringP", "snapshotViewAfterScreenUpdates"]
+- !private ["So23UIUserActivityRestoringP", "statusBarFrame"]
+- !private ["So23UIUserActivityRestoringP", "transform"]
+- !private ["So23UIUserActivityRestoringP", "untransform"]
+- ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "addMotionEffect"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "alpha"]
+- ["So6UIViewC", "autoresizingMask"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "clipsToBounds"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "motionEffects"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- ["So6UIViewC", "snapshotView"]
+- !private ["So6UIViewC", "transform"]
+- !private ["So6UIViewC", "untransform"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "interactivePopGestureRecognizer"]
+- !private ["So16UIViewControllerC", "isHidden"]
+- ["So16UIViewControllerC", "view"]
+- ["Su", "leastNonzeroMagnitude"]
+- ["s6UInt16V", "leastNonzeroMagnitude"]
+- ["s6UInt32V", "leastNonzeroMagnitude"]
+- ["s6UInt64V", "leastNonzeroMagnitude"]
+- ["s5UInt8V", "leastNonzeroMagnitude"]
+- ["SU", "leastNonzeroMagnitude"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- ["s15_CVarArgAlignedP", "leastNonzeroMagnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- ["s30_CustomPlaygroundQuickLookableP", "leastNonzeroMagnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "minY"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "leastNonzeroMagnitude"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "leastNonzeroMagnitude"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addMotionEffect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "autoresizingMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactivePopGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumRelativeValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumRelativeValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "motionEffects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOpacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "snapshotView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "untransform"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addMotionEffect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alpha"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "autoresizingMask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clipsToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactivePopGestureRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isUserInteractionEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumRelativeValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumRelativeValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "motionEffects"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOpacity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "snapshotView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusBarFrame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "transform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "untransform"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "alpha"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "identity"]
+- !private ["s21_ObjectiveCBridgeableP", "isUserInteractionEnabled"]
+- ["s21_ObjectiveCBridgeableP", "leastNonzeroMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "minY"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- ["s21_ObjectiveCBridgeableP", "snapshotView"]
+- !private ["s21_ObjectiveCBridgeableP", "transform"]
+- !private ["s21_ObjectiveCBridgeableP", "translatedBy"]
+- !private ["s21_ObjectiveCBridgeableP", "untransform"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s14_StringElementP", "leastNonzeroMagnitude"]
+- ["s20_SwiftNewtypeWrapperP", "leastNonzeroMagnitude"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addMotionEffect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "autoresizingMask"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "motionEffects"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "snapshotView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "untransform"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "Sa"
+- "So18UIViewAutoresizingV"
+- "SK"
+- "Sz"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So17CGAffineTransformV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "10Foundation4DateV"
+- "Se"
+- !private "So31UIInterpolatingMotionEffectTypeV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "10Foundation8IndexSetV0B0V"
+- "10Foundation9IndexPathV"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- !private "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- "8SideMenu18InitializableClassP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "Sj"
+- "s9OptionSetP"
+- "Sq"
+- "8SideMenu17PresentationModelP"
+- "Sk"
+- !private "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "ST"
+- "s10SetAlgebraP"
+- "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- !private "8SideMenu0aB22PresentationControllerC"
+- "8SideMenu0aB30PresentationControllerDelegateP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- "So21UIContentSizeCategorya"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So27UIInterpolatingMotionEffectC"
+- "So24UILargeContentViewerItemP"
+- "So14UIMotionEffectC"
+- !private "So19UIMotionEffectGroupC"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- !private "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- "s20_SwiftNewtypeWrapperP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hamza/Documents/GitHub/MiniProjetIOS/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hamza/Documents/GitHub/MiniProjetIOS/build/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ebb8fcc341e5e4270cbf5cfd7ee16c31"

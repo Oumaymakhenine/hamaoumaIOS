@@ -1,19 +1,11 @@
-//
-//  PickImageViewController.swift
-//  HealthSheet
-//
-//  Created by Hama on 12/6/20.
-//
-
 import UIKit
 
-
 struct ImageResponse: Decodable
+
 {
     let status: Int?
     let message: String?
 }
-
 
 class PickImageViewController: UIViewController {
     
@@ -29,7 +21,7 @@ class PickImageViewController: UIViewController {
         }
     @IBOutlet weak var upload: UIButton!
     @IBOutlet var UIPickerr: UIPickerView!
-       override func viewDidLoad() {
+    override func viewDidLoad() {
            super.viewDidLoad()
        }
     
@@ -60,8 +52,7 @@ extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationCo
         
         
         func UploadImage(){
-             // your image from Image picker, as of now I am picking image from the bundle
-            // let image = UIImage(named: "myimg.jpg",in: Bundle(for: type(of:self)),compatibleWith: nil)
+           
             let image = picture.image
             let imageData = image?.jpegData(compressionQuality: 0.7)
 
@@ -82,7 +73,8 @@ extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationCo
              URLSession.shared.dataTask(with: urlRequest) { (data, httpUrlResponse, error) in
 
                  if(error == nil && data != nil && data?.count != 0)
-                 {DispatchQueue.main.async {
+                 {
+                    DispatchQueue.main.async {
                      do {
                          let response = try JSONDecoder().decode(ImageResponse.self, from: data!)
                         print("bdgdgd")
@@ -103,10 +95,6 @@ extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationCo
                             print(error)
                         }
                         
-                            
-
-                     
-
                      catch let decodingError
                      {
                          debugPrint(decodingError)
