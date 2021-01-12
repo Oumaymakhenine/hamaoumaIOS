@@ -13,7 +13,7 @@ class SignUpController: UIViewController {
     @IBOutlet weak var firstname: UITextField!
     @IBOutlet weak var lastname: UITextField!
     
-    let serverUrl = "http://192.168.43.111:3000/api/auth/signup"
+    let serverUrl = ApiUtis.Path + "/api/auth/signup"
 
     @IBAction func signup(_ sender: Any) {
         print("hama")
@@ -154,14 +154,4 @@ class SignUpController: UIViewController {
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

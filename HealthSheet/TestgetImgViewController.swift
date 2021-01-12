@@ -9,8 +9,8 @@ import UIKit
 
 class TestgetImgViewController: UIViewController {
 
-    let url = "http://192.168.43.111:3000/api/image/1607333808489-HealthSheet-file.jpg"
-    let urll = URL(fileURLWithPath: "http://192.168.43.111:3000/api/image/1607333808489-HealthSheet-file.jpg")
+    let url = ApiUtis.Path + "/api/image/1607333808489-HealthSheet-file.jpg"
+    let urll = URL(fileURLWithPath: ApiUtis.Path + "/api/image/1607333808489-HealthSheet-file.jpg")
     @IBOutlet weak var img: UIImageView!
 
     private func fetchImage() {
@@ -37,17 +37,5 @@ class TestgetImgViewController: UIViewController {
     }
     */
 }
-extension UIImageView {
-    func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                    }
-                }
-            }
-        }
-    }
-}
+
 

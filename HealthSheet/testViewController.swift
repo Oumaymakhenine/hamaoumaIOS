@@ -11,7 +11,7 @@ import Alamofire
 
 class testViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate{
    
-     let serverUrl = "http://192.168.43.111:3000/api/auth/getuser"
+     let serverUrl = ApiUtis.Path + "/api/auth/getuser"
     @IBOutlet weak var menub: UIButton!
     
     

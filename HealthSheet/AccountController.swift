@@ -9,7 +9,7 @@ import UIKit
 
 class AccountController: UIViewController {
 
-    let serverUrl = "http://192.168.1.55:3000/api/auth/updateuser"
+    let serverUrl = ApiUtis.Path + "/api/auth/updateuser"
 
     
     @IBOutlet weak var email: UITextField!
@@ -18,18 +18,14 @@ class AccountController: UIViewController {
     @IBOutlet weak var username: UILabel!
     
     
-    static var dtaa = "ggg"
-    var people = MenuController.people
-
+    static var dtaa = "ddd"
+    var people = MenuDocViewController.people
     
 
     
     @IBAction func upd(_ sender: Any) {
         
-       /* var u = Userc( username: "x", password: "a")
-         //= fn.text as! String
-        // = ln.text as! String
-        u.email = email.text as! String*/
+       
         
         people.email = email.text!
         people.firstname = fn.text!
@@ -49,7 +45,7 @@ class AccountController: UIViewController {
                         
                     var   dd = dataString! as String
                        
-//                                let data = response.data
+                            let data = response.data
                       print(dd)
                               
 
@@ -57,47 +53,25 @@ class AccountController: UIViewController {
                                   case let .failure(error):
                                   print(error)
                                }
-          
                       }
+            
+                    let alert = UIAlertController(title: "Update", message: "Successful.", preferredStyle: UIAlertController.Style.alert)
+
+                    // add an action (button)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                    // show the alert
+                    self.present(alert, animated: true, completion: nil)
     }
 
     @IBOutlet weak var update: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        email.text = people.email
+        ln.text = people.lastname
+        fn.text = people.firstname
+        //username.text = people.username
         
-        
-        let jsonData = Data(FirstViewController.dtaa.utf8)
-        let decoder = JSONDecoder()
 
-        do {
-             people = try decoder.decode(Testuser.self, from: jsonData)
-           // print("haammmaa")
-          //  print(people.username)
-          //  print(people.listofdp[0])
-         //   let h = User(username: people.listofdp[0], firstname: "d", lastname: "d", email: "d")
-           // var hama = UserServices.getUser(u: h)
-            
-           // print("ye rabi  "+hama.email)
-            //print(people.listdp[0].username)
-          //  print(people.description)
-            } catch {
-            print(error)
-        }
-        
-       
-            
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

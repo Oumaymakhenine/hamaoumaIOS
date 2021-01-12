@@ -8,4 +8,5 @@
 import Foundation
 struct Role:Codable {
     var name :String
+    
 }

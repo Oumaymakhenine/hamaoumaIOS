@@ -7,9 +7,12 @@
 import SideMenu
 import UIKit
 
+    
+
 class MenuController: UIViewController {
     static var hama = [""]
-    static var people = Testuser(roles: ["h"], listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x")
+    @IBOutlet weak var menuviewcon: UIView!
+    static var people = Testuser(roles: "h", listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x", analyses: ["f"])
     static var dtaa = ""
     @IBOutlet weak var m: NSLayoutConstraint!
     @IBOutlet weak var menuView: UIView!
@@ -17,20 +20,15 @@ class MenuController: UIViewController {
     @IBOutlet weak var leadConstraint: NSLayoutConstraint!
     @IBAction func oumayma(_ sender: UIBarButtonItem) {
         if menuIsHidden {
-            //leadConstraint.constant = 0
-            menuView.isHidden = false
-
-           // m.constant = 0
+            menuviewcon.isHidden = false
             menuIsHidden = false
-            UIView.animate(withDuration: 0.1) {
+            UIView.animate(withDuration: 0.2) {
                 self.view.layoutIfNeeded()
             }
         }else{
-           // leadConstraint.constant = -190
-           // m.constant = -190
-            menuView.isHidden = true
+            menuviewcon.isHidden = true
 
-            UIView.animate(withDuration: 0.1) {
+            UIView.animate(withDuration: 0.2) {
                 self.view.layoutIfNeeded()
         }
         menuIsHidden = !menuIsHidden
@@ -39,7 +37,7 @@ class MenuController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        menuView.isHidden = true
+        menuviewcon.isHidden = true
 //        leadConstraint.constant = -190
         //m.constant = -190
 

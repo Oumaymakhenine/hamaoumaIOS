@@ -10,7 +10,7 @@ import UIKit
 
 class LoginController: UIViewController {
 
-    let serverUrl = "http://192.168.1.55:3000/api/auth/signin"
+    let serverUrl = ApiUtis.Path + "/api/auth/signin"
     
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
@@ -25,16 +25,17 @@ class LoginController: UIViewController {
     
     
     @IBAction func loginAction(_ sender: Any) {
-        
+        let queue = DispatchQueue(label: "WithdrawalQueue", attributes: .concurrent)
+          queue.async {
 
         let x = "x"
         let rol = Role(name: "Doctor")
         print("jkbcd")
         let roles = [rol]
      //  let  u = User(username: usrp.text!,email: x, password: usrp.text!,role: roles)
-        var u = Userc( username: usrn.text!, password: usrp.text!)
+            var u = Userc( username: self.usrn.text!, password: self.usrp.text!)
 
-      AF.request(serverUrl,
+            AF.request(self.serverUrl,
                     method: .post,
                     parameters: u,
                     encoder: JSONParameterEncoder.default).response { response in
@@ -46,14 +47,25 @@ class LoginController: UIViewController {
                                var dataString = NSString(data: response.data!, encoding:String.Encoding.utf8.rawValue)
                              var   dd = dataString! as String
                                 
-                              // print(dd)
-                               self.performSegue(withIdentifier: "first", sender: dd)
-                            //    self.performSegue(withIdentifier: "welcome", sender: dd)
+                                let jsonData = Data(dd.utf8)
+                                let decoder = JSONDecoder()
+
+                                do {
+                                    MenuDocViewController.people = try decoder.decode(Testuser.self, from: jsonData)
+                                   self.performSegue(withIdentifier: "first", sender: dd)
+                                    } catch {
+                                    print(error)
+                                }
+                                // Do any additional setup after loading the view.
+                            
+
+                                
+                
 
                                 case let .failure(error):
                                 print(error)
                              }
-                    }}
+                    }}}
     @IBOutlet weak var usrp: UITextField!
     @IBOutlet weak var usrn: UITextField!
     

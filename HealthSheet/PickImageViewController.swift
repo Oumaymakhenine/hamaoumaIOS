@@ -12,8 +12,8 @@ class PickImageViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let d = sender as! Analyse
-        let dd = segue.destination as! SendAnalyseViewController
-        dd.a = d
+       // let dd = segue.destination as! SendAnalyseViewController
+        //dd.a = d
     }
 
     @IBAction func uploadaction(_ sender: Any) {
@@ -56,7 +56,7 @@ extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationCo
             let image = picture.image
             let imageData = image?.jpegData(compressionQuality: 0.7)
 
-             let url =  "http://192.168.1.102:3000/api/auth/uploadfile"
+            let url =  ApiUtis.Path + "api/auth/uploadfile"
              var urlRequest = URLRequest(url: URL(string: url)!)
 
              urlRequest.httpMethod = "post"
@@ -88,6 +88,8 @@ extension PickImageViewController:UIImagePickerControllerDelegate,UINavigationCo
                             
                             
                             var analyse = try decoder.decode(Analyse.self, from: jsonData)
+                            SendAnalyseViewController.i = image
+                            SendAnalyseViewController.a = analyse
                             self.performSegue(withIdentifier: "sendanalyse", sender: analyse)
 
                             }

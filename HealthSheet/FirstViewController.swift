@@ -3,7 +3,7 @@ import UIKit
 class FirstViewController: UIViewController {
   static var dtaa = "ggg"
     
-    var people = Testuser(roles: ["h"], listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x")
+    var people = Testuser(roles: "h", listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x", analyses: ["f"])
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let dt = sender as! [String]

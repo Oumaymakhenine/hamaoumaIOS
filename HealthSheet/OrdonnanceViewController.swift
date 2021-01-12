@@ -4,7 +4,7 @@ import UIKit
 class OrdonnanceViewController: UIViewController {
 
     
-     let path : String = "http://192.168.43.111:3000/api/createordon/" ;
+     let path : String = ApiUtis.Path + "/api/createordon/" ;
 
     @IBAction func send(_ sender: Any) {
         

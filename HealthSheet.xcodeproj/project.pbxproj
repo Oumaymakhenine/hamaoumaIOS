@@ -10,6 +10,7 @@
 		07CD3A88E60781FF06A7F2D3 /* Pods_HealthSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6D728720CCFD7FFAF1E325 /* Pods_HealthSheet.framework */; };
 		29A11EC14D33C1551B64AC59 /* Pods_HealthSheet_HealthSheetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D46FA5EB4B5501220F1F2ED /* Pods_HealthSheet_HealthSheetUITests.framework */; };
 		BB1488812574D9A300AB2A9F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1488802574D9A300AB2A9F /* WelcomeViewController.swift */; };
+		BB484C1B25AC8BDF004030CB /* PatientMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB484C1A25AC8BDF004030CB /* PatientMenuController.swift */; };
 		BB51165E2584E13900AA6D40 /* Testuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB51165D2584E13900AA6D40 /* Testuser.swift */; };
 		BB5E9523257E24230054F041 /* OrdonnanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E9522257E24230054F041 /* OrdonnanceViewController.swift */; };
 		BB5E9528257E33190054F041 /* TestgetImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E9527257E33190054F041 /* TestgetImgViewController.swift */; };
@@ -80,6 +81,7 @@
 		AE6D728720CCFD7FFAF1E325 /* Pods_HealthSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1488802574D9A300AB2A9F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Assets.xcassets/WelcomeViewController.swift; sourceTree = "<group>"; };
 		BB1ACC1B2587C2A30064E838 /* HealthSheet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthSheet-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB484C1A25AC8BDF004030CB /* PatientMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMenuController.swift; sourceTree = "<group>"; };
 		BB51165D2584E13900AA6D40 /* Testuser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testuser.swift; sourceTree = "<group>"; };
 		BB5E9522257E24230054F041 /* OrdonnanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdonnanceViewController.swift; sourceTree = "<group>"; };
 		BB5E9527257E33190054F041 /* TestgetImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestgetImgViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				FAB3450D257F67DB001B6E7B /* AccountController.swift */,
 				FADAA06F258666720093AC1D /* PatientAboutViewController.swift */,
 				BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */,
+				BB484C1A25AC8BDF004030CB /* PatientMenuController.swift */,
 			);
 			name = Patient;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				FA68C52E2569B94C009EC5FB /* NavMenuController.swift in Sources */,
 				BB5E9523257E24230054F041 /* OrdonnanceViewController.swift in Sources */,
 				FAB344F9257F5DAC001B6E7B /* AboutdocViewController.swift in Sources */,
+				BB484C1B25AC8BDF004030CB /* PatientMenuController.swift in Sources */,
 				FAB344E7257F57AC001B6E7B /* tableDoc.swift in Sources */,
 				BBBFA1FA256AB57300369892 /* MedicalsheetController.swift in Sources */,
 				FAB3450E257F67DB001B6E7B /* AccountController.swift in Sources */,

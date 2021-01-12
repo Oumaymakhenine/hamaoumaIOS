@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 class ListPViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate{
 
-    let serverUrl = "http://172.16.123.25:3000/api/auth/getuser"
+    let serverUrl = ApiUtis.Path + "/api/auth/getuser"
     let cellReuseIdentifier = "ReusableTableCell1"
     var hama:[String] = []
     
@@ -18,7 +18,6 @@ class ListPViewController: UIViewController ,UITableViewDataSource,UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         let jsonData = Data(dtaa.utf8)
-
         
         let decoder = JSONDecoder()
 
