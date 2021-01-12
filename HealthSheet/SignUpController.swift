@@ -16,12 +16,17 @@ class SignUpController: UIViewController {
     let serverUrl = ApiUtis.Path + "/api/auth/signup"
 
     @IBAction func signup(_ sender: Any) {
-        print("hama")
         if(password.text! == pssword2.text!){
+                        var r = "Patient"
+                        if(doctor.isOn)
+                        {
+                            r = "Doctor"
+                        }
+                    
+                    let roles = [r]
+            
         
-        let rol = Role(name: "User")
-        print("jkbcd")
-        let roles = [rol]
+
         
       //  var u = User(username: username.text ?? "x", email: email.text ?? "x", password: password.text ?? "x", role:roles)
         var u = Userc(username: username.text! , visites: [], roles: roles, listdp: [], _id: "", firstname: firstname.text!, lastname: lastname.text!, email: email.text!, password: password.text!, phonenum: "")
@@ -82,9 +87,13 @@ class SignUpController: UIViewController {
         print("hama")
         if(password.text! == pssword2.text!){
         
-        let rol = Role(name: "User")
-        print("jkbcd")
-        let roles = [rol]
+            var r = "Patient"
+            if(doctor.isOn)
+            {
+                r = "Doctor"
+            }
+        
+        let roles = [r]
         
       //  var u = User(username: username.text ?? "x", email: email.text ?? "x", password: password.text ?? "x", role:roles)
         var u = Userc(username: username.text! , visites: [], roles: roles, listdp: [], _id: "", firstname: firstname.text!, lastname: lastname.text!, email: email.text!, password: password.text!, phonenum: "")
@@ -120,10 +129,13 @@ class SignUpController: UIViewController {
         print("hama")
         if(password.text! == pssword2.text!){
         
-        let rol = Role(name: "User")
-        print("jkbcd")
-        let roles = [rol]
+            var r = "Patient"
+            if(doctor.isOn)
+            {
+                r = "Doctor"
+            }
         
+        let roles = [r]
       //  var u = User(username: username.text ?? "x", email: email.text ?? "x", password: password.text ?? "x", role:roles)
         var u = Userc(username: username.text! , visites: [], roles: roles, listdp: [], _id: "", firstname: firstname.text!, lastname: lastname.text!, email: email.text!, password: password.text!, phonenum: "")
         AF.request(serverUrl,

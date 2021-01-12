@@ -6,7 +6,7 @@
 
 import Foundation
 class Userc : Codable{
-    internal init(username: String, visites: [Visite], roles: [Role], listdp: [Userc], _id: String, firstname: String, lastname: String, email: String, password: String, phonenum: String) {
+    internal init(username: String, visites: [Visite], roles: [String], listdp: [Userc], _id: String, firstname: String, lastname: String, email: String, password: String, phonenum: String) {
         self.username = username
         self.visites = visites
         self.roles = roles
@@ -37,7 +37,7 @@ class Userc : Codable{
 
     var username:String
     var visites:[Visite]
-    var roles:[Role]
+    var roles:[String]
     var listofdp:[Userc]
     var _id:String
     var firstname:String

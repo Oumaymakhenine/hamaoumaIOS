@@ -14,16 +14,13 @@ class LoginController: UIViewController {
     
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        
-        var dta = sender as! String
+      //  var dta = sender as! String
         
         //let dest = segue.destination as! MenuController
     
-    MenuController.dtaa = dta
+   // MenuController.dtaa = dta
     }
 
-  
-    
-    
     @IBAction func loginAction(_ sender: Any) {
         let queue = DispatchQueue(label: "WithdrawalQueue", attributes: .concurrent)
           queue.async {
@@ -51,18 +48,22 @@ class LoginController: UIViewController {
                                 let decoder = JSONDecoder()
 
                                 do {
+                                    
                                     MenuDocViewController.people = try decoder.decode(Testuser.self, from: jsonData)
+                                    if(MenuDocViewController.people.roles == "DOCTOR"){
+                                        print(dd)
+
                                    self.performSegue(withIdentifier: "first", sender: dd)
+                                    }else{
+                                        print(dd)
+
+                                        self.performSegue(withIdentifier: "menuPatient", sender: dd)
+
+                                    }
                                     } catch {
                                     print(error)
                                 }
-                                // Do any additional setup after loading the view.
-                            
-
-                                
-                
-
-                                case let .failure(error):
+                        case let .failure(error):
                                 print(error)
                              }
                     }}}
