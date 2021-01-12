@@ -24,10 +24,6 @@
 		BB8D4E4B25A7659900EAF091 /* SendAnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */; };
 		BBBFA1F5256AA64400369892 /* ListPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFA1F4256AA64400369892 /* ListPatientsViewController.swift */; };
 		BBBFA1FA256AB57300369892 /* MedicalsheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFA1F9256AB57300369892 /* MedicalsheetController.swift */; };
-		BBE9DB5925AE2D71004673E8 /* ListAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9DB5825AE2D71004673E8 /* ListAnalysisViewController.swift */; };
-		BBE9DB5E25AE3A25004673E8 /* mailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9DB5D25AE3A25004673E8 /* mailViewController.swift */; };
-		BBE9DB6325AE3C96004673E8 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9DB6225AE3C96004673E8 /* Id.swift */; };
-		BBE9DB7825AE446E004673E8 /* ShowAnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE9DB7725AE446E004673E8 /* ShowAnalyseViewController.swift */; };
 		BBF224A125728AF60002257E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF224A025728AF60002257E /* User.swift */; };
 		BBF224A925728E490002257E /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF224A825728E490002257E /* Role.swift */; };
 		BBF224BA257292110002257E /* ApiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF224B9257292110002257E /* ApiUtils.swift */; };
@@ -99,10 +95,6 @@
 		BB8D4E4A25A7659900EAF091 /* SendAnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendAnalyseViewController.swift; sourceTree = "<group>"; };
 		BBBFA1F4256AA64400369892 /* ListPatientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPatientsViewController.swift; sourceTree = "<group>"; };
 		BBBFA1F9256AB57300369892 /* MedicalsheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalsheetController.swift; sourceTree = "<group>"; };
-		BBE9DB5825AE2D71004673E8 /* ListAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnalysisViewController.swift; sourceTree = "<group>"; };
-		BBE9DB5D25AE3A25004673E8 /* mailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailViewController.swift; sourceTree = "<group>"; };
-		BBE9DB6225AE3C96004673E8 /* Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
-		BBE9DB7725AE446E004673E8 /* ShowAnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAnalyseViewController.swift; sourceTree = "<group>"; };
 		BBF224A025728AF60002257E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BBF224A825728E490002257E /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		BBF224B9257292110002257E /* ApiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUtils.swift; sourceTree = "<group>"; };
@@ -215,8 +207,6 @@
 				FADAA06A258666400093AC1D /* MeAboutViewController.swift */,
 				FADAA07725866EEF0093AC1D /* ListPViewController.swift */,
 				FA4B225A259BF21400519C29 /* MenuDocViewController.swift */,
-				BBE9DB5825AE2D71004673E8 /* ListAnalysisViewController.swift */,
-				BBE9DB7725AE446E004673E8 /* ShowAnalyseViewController.swift */,
 			);
 			name = Doctor;
 			sourceTree = "<group>";
@@ -232,7 +222,6 @@
 				BB684736257CDCD900EC8F87 /* Visite.swift */,
 				BB68473B257CDD2B00EC8F87 /* Analyse.swift */,
 				BB51165D2584E13900AA6D40 /* Testuser.swift */,
-				BBE9DB6225AE3C96004673E8 /* Id.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -249,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				BBF224BF257294E90002257E /* UserServices.swift */,
-				BBE9DB5D25AE3A25004673E8 /* mailViewController.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -567,7 +555,6 @@
 				BB1488812574D9A300AB2A9F /* WelcomeViewController.swift in Sources */,
 				FA68C52E2569B94C009EC5FB /* NavMenuController.swift in Sources */,
 				BB5E9523257E24230054F041 /* OrdonnanceViewController.swift in Sources */,
-				BBE9DB5E25AE3A25004673E8 /* mailViewController.swift in Sources */,
 				FAB344F9257F5DAC001B6E7B /* AboutdocViewController.swift in Sources */,
 				BB484C1B25AC8BDF004030CB /* PatientMenuController.swift in Sources */,
 				FAB344E7257F57AC001B6E7B /* tableDoc.swift in Sources */,
@@ -575,7 +562,6 @@
 				FAB3450E257F67DB001B6E7B /* AccountController.swift in Sources */,
 				FABFD0B22569AE7F009F1078 /* MenuController.swift in Sources */,
 				FAD55AF02562703200E4C01D /* ViewController.swift in Sources */,
-				BBE9DB7825AE446E004673E8 /* ShowAnalyseViewController.swift in Sources */,
 				BB6E40C2257F9EFA008636AB /* FirstViewController.swift in Sources */,
 				BB68472D257CDAE300EC8F87 /* Ordonnance.swift in Sources */,
 				BB84A01B257D6AAC00A56ED2 /* PickImageViewController.swift in Sources */,
@@ -584,7 +570,6 @@
 				BB6E4603257BCB57002868CC /* Userc.swift in Sources */,
 				BB51165E2584E13900AA6D40 /* Testuser.swift in Sources */,
 				BBF224BA257292110002257E /* ApiUtils.swift in Sources */,
-				BBE9DB6325AE3C96004673E8 /* Id.swift in Sources */,
 				BBF224C0257294E90002257E /* UserServices.swift in Sources */,
 				BB5E9528257E33190054F041 /* TestgetImgViewController.swift in Sources */,
 				BB684737257CDCD900EC8F87 /* Visite.swift in Sources */,
@@ -599,7 +584,6 @@
 				BB68473C257CDD2B00EC8F87 /* Analyse.swift in Sources */,
 				BB684732257CDCAF00EC8F87 /* HealthSheet.swift in Sources */,
 				FABFD0A82569ADBD009F1078 /* SignUpController.swift in Sources */,
-				BBE9DB5925AE2D71004673E8 /* ListAnalysisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

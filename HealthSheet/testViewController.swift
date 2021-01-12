@@ -28,22 +28,7 @@ class testViewController: UIViewController ,UITableViewDataSource,UITableViewDel
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let jsonData = Data(dtaa.utf8)
-
-        
-        let decoder = JSONDecoder()
-
-        do {
-            let people = try decoder.decode(Testuser.self, from: jsonData)
-            //print(people.listofdp[0].username)
-            //print(people.listdp[0].username)
-          //  print(people.description)
-           // let hama = people.listofdp
-            
-        } catch {
-            print(error.localizedDescription)
-        }
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+ 
         self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 

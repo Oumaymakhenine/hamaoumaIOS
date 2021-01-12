@@ -56,7 +56,7 @@ class LoginController: UIViewController {
                                    self.performSegue(withIdentifier: "first", sender: dd)
                                     }else{
                                         print(dd)
-
+                                        PatientMenuController.people = MenuDocViewController.people
                                         self.performSegue(withIdentifier: "menuPatient", sender: dd)
 
                                     }

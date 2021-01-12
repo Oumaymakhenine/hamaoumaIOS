@@ -8,6 +8,8 @@
 import UIKit
 
 class PatientMenuController: UIViewController {
+    static var people = Testuser(roles: "h", listofdp: ["d"], username: "x", firstname: "x", lastname: "x", email: "x", password: "x", analyses: ["f"])
+    
     @IBOutlet weak var menuuuuuu: UIView!
     @IBAction func btnmenu(_ sender: UIBarButtonItem) {
     }

@@ -83,12 +83,37 @@ class SignUpController: UIViewController {
         
     }
     @IBAction func hama(_ sender: Any) {
+        if self.password.text! == "" {
+                        let alert = UIAlertController(title: "Alert", message: "Verify password.", preferredStyle: UIAlertController.Style.alert)
+
+                        // add an action (button)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                        
+                    }
+                  
+                    if self.email.text! == "" || self.email.text!.contains("@") {
+                        let alert = UIAlertController(title: "Alert", message: "Verify Email.", preferredStyle: UIAlertController.Style.alert)
+
+                        // add an action (button)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                        // show the alert
+                        self.present(alert, animated: true, completion: nil)
+                        
+                    }
+
+        
+        
+        
         
         print("hama")
-        if(password.text! == pssword2.text!){
+            if(self.password.text! == self.pssword2.text!){
         
             var r = "Patient"
-            if(doctor.isOn)
+                if(self.doctor.isOn)
             {
                 r = "Doctor"
             }
@@ -96,8 +121,8 @@ class SignUpController: UIViewController {
         let roles = [r]
         
       //  var u = User(username: username.text ?? "x", email: email.text ?? "x", password: password.text ?? "x", role:roles)
-        var u = Userc(username: username.text! , visites: [], roles: roles, listdp: [], _id: "", firstname: firstname.text!, lastname: lastname.text!, email: email.text!, password: password.text!, phonenum: "")
-        AF.request(serverUrl,
+                var u = Userc(username: self.username.text! , visites: [], roles: roles, listdp: [], _id: "", firstname: self.firstname.text!, lastname: self.lastname.text!, email: self.email.text!, password: self.password.text!, phonenum: "")
+                AF.request(self.serverUrl,
                     method: .post,
                     parameters: u,
                     encoder: JSONParameterEncoder.default).response { response in
@@ -124,7 +149,7 @@ class SignUpController: UIViewController {
         
         
     }
-    @IBAction func s(_ sender: Any) {
+        func s(_ sender: Any) {
         
         print("hama")
         if(password.text! == pssword2.text!){
